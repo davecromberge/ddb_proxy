@@ -41,8 +41,7 @@ listener({Decoder, Bucket, Port} = L)
 start_link() ->
     R = supervisor:start_link({local, ?SERVER}, ?MODULE, []),
     {ok, Listeners} = application:get_env(ddb_proxy, listeners),
-    {ok, Db} = application:get_env(ddb_proxy, db),
-    pgapp:connect(Db),
+    dqe_idx_pg:init(),
     [listener(L) || L <- Listeners],
     R.
 
