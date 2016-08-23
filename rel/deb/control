@@ -1,0 +1,9 @@
+Package: ddb_proxy
+Version: {{VERSION}}
+License: unknown
+Vendor: dataloop
+Maintainer: packages@dataloop.io
+Section: default
+Priority: extra
+Homepage: http://www.dataloop.io
+Description: Dalamtinerdb proxy
