@@ -14,7 +14,8 @@
     dqe_idx,
     dqe_idx_pg,
     ddb_client,
-    trie
+    trie,
+    jsone
    ]},
   {env,[]},
   {modules, []},
