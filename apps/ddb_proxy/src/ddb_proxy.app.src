@@ -13,7 +13,8 @@
     dp_decoder,
     dqe_idx,
     dqe_idx_pg,
-    ddb_client
+    ddb_client,
+    trie
    ]},
   {env,[]},
   {modules, []},
